@@ -1,0 +1,12 @@
+package model.request;
+
+public enum RequestType {
+	LOGIN, 
+	LOGOUT, 
+	REGISTER, 
+	CHAT_DATA, 
+	CONVERSATION_DATA, 
+	GROUP_CONVERSATION_DATA,
+	SEND_MESSAGE,
+	UNKNOWN
+}
